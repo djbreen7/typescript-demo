@@ -1,7 +1,7 @@
 import { UsersService } from '../../../../../services'; 
 // Not sexy. Breaks if file is moved
 
-import { DragonsService } from '@demo/services';
+import { DragonsService } from '~services';
 
 console.log(DragonsService);
 

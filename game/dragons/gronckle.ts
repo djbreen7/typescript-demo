@@ -1,6 +1,6 @@
 import { Dragon } from "./dragon";
-import { Rarity } from "@demo/enums";
-import { Fighter } from "@demo/interfaces";
+import { Rarity } from "../enums";
+import { Fighter } from "~game/interfaces";
 
 export class Gronckle extends Dragon implements Fighter {
     readonly rarity: Rarity = Rarity.Common;

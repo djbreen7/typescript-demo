@@ -1,4 +1,4 @@
-import { Rarity } from "@demo/enums";
+import { Rarity } from "~game/enums";
 
 export abstract class Dragon {
     public name: string;

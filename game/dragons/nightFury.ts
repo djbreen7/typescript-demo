@@ -1,6 +1,6 @@
-import { Fighter } from "@demo/interfaces";
-import { Dragon } from ".";
-import { Rarity } from "@demo/enums";
+import { Fighter } from "~game/interfaces";
+import { Dragon } from "./dragon";
+import { Rarity } from "../enums";
 
 export class NightFury extends Dragon implements Fighter {
     readonly rarity: Rarity = Rarity.Rare;

@@ -8,12 +8,10 @@
     "module": "commonjs",
     "strict": true,
     "noImplicitAny": false,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@demo/interfaces": ["game/interfaces/index.ts"],
-      "@demo/enums": ["game/enums/index.ts"],
-      "@demo/tuples": ["game/tuples/index.ts"],
-      "@demo/services": ["services/index.ts"]
+      "~game*": ["game*"],
+      "~services*": ["services/"]
     },
     "esModuleInterop": true,
     "allowJs": true,
