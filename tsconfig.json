@@ -10,7 +10,8 @@
     "noImplicitAny": false,
     "baseUrl": "./",
     "paths": {
-      "@game/interfaces": ["_game/interfaces/"]
+      "@game*": ["game*"],
+      "@services": ["services/"]
     },
     "esModuleInterop": true,
     "allowJs": true,

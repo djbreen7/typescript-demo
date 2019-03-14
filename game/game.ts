@@ -1,8 +1,8 @@
-import { NightFury } from './dragons/dragon';
+import { NightFury, Gronckle } from './dragons/dragon';
 import { Competitors } from './tuples/competitors';
 
 const toothless = new NightFury('Toothless');
-const enemy = new NightFury('Enemy');
+const enemy = new Gronckle('Enemy');
 const competitors: Competitors = [toothless, enemy];
 
 while (toothless.isAlive && enemy.isAlive) {
