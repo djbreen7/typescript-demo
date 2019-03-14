@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    // "resolveJsonModule": true,
+    "resolveJsonModule": true,
     "strictPropertyInitialization": true,
     "outDir": "dist",
     "target": "es5",
@@ -8,9 +8,12 @@
     "module": "commonjs",
     "strict": true,
     "noImplicitAny": false,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "@game/interfaces": ["_game/interfaces/"]
+      "@demo/interfaces": ["game/interfaces/index.ts"],
+      "@demo/enums": ["game/enums/index.ts"],
+      "@demo/tuples": ["game/tuples/index.ts"],
+      "@demo/services": ["services/index.ts"]
     },
     "esModuleInterop": true,
     "allowJs": true,

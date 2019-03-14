@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/djbreen7/typescript-demo#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.123",
     "axios": "^0.18.0",
     "lodash": "^4.17.11"
   },

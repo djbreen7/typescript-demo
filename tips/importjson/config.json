@@ -1,0 +1,5 @@
+{
+    "test": {
+        "baseUrl": "test.example.com"
+    }
+}

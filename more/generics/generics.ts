@@ -37,3 +37,4 @@ myAlphabet.add('B');
 myAlphabet.add('C');
 myAlphabet.print();
 console.log(myAlphabet.count);
+
