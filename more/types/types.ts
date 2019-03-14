@@ -38,7 +38,7 @@ padding = 0;
  */
 
  let implicitNumArr = [1,2,3];
- implicitNumArr.push('4');
+//  implicitNumArr.push('4');
 
  let unionArray: Array<string | number> = [1,2,3];
  unionArray.push('4');
@@ -47,7 +47,7 @@ padding = 0;
 type DefinedPrimitive = string | number | boolean | symbol;
 let myPrim: DefinedPrimitive = 1;
 let mySecondPrim: DefinedPrimitive = 'string';
-let invalidPrim: DefinedPrimitive = null;
+// let invalidPrim: DefinedPrimitive = null;
 
 // Intersection Types
 

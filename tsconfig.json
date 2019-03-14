@@ -1,17 +1,20 @@
 {
   "compilerOptions": {
-    // "resolveJsonModule": true,
-    "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
+    // "strictPropertyInitialization": true,
     "outDir": "dist",
     "target": "es5",
     "lib": ["es2015", "dom"],
     "module": "commonjs",
-    "strict": true,
+    // "strict": true,
     "noImplicitAny": false,
     "baseUrl": "./",
     "paths": {
-      "@game*": ["game*"],
-      "@services": ["services/"]
+      "@game/dragons": ["game/dragons/index.ts"],
+      "@game/enums": ["game/enums/index.ts"],
+      "@game/interfaces": ["game/interfaces/index.ts"],
+      "@game/tuples": ["game/tuples/index.ts"],
+      "@services": ["services/index.ts"]
     },
     "esModuleInterop": true,
     "allowJs": true,

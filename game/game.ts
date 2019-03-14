@@ -1,5 +1,5 @@
-import { NightFury, Gronckle } from './dragons/dragon';
-import { Competitors } from './tuples/competitors';
+import { NightFury, Gronckle } from '@game/dragons';
+import { Competitors } from '@game/tuples';
 
 const toothless = new NightFury('Toothless');
 const enemy = new Gronckle('Enemy');
