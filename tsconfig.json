@@ -1,20 +1,18 @@
 {
   "compilerOptions": {
     // "resolveJsonModule": true,
+    "strictPropertyInitialization": true,
     "outDir": "dist",
     "target": "es5",
+    "lib": ["es2015", "dom"],
     "module": "commonjs",
     "strict": true,
     "noImplicitAny": false,
     "baseUrl": "./",
     "paths": {
-
+      "@game/interfaces": ["_game/interfaces/"]
     },
     "esModuleInterop": true,
-    "typeRoots": [
-      "**/typings",
-      "I_Definitions/index.d.ts"
-    ],
     "allowJs": true,
     "skipLibCheck": true
   },
