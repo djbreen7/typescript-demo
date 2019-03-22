@@ -1,5 +1,6 @@
 // Example 1
-function addNumbers(...nums: Array<number>) {
+// Add type annotation to argument
+function addNumbers(...nums) {
     console.log(nums.reduce((sum, val) => sum += val, 0));
 }
 

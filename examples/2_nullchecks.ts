@@ -1,6 +1,6 @@
 // Enable strictNullChecks for syntax highlighting
 
-let nums = [1,2,3, undefined];
+let nums = [1,2,3];
 
 console.log(nums.reduce((sum, val) => sum += val));
 

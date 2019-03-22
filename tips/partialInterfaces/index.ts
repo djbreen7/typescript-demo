@@ -1,20 +1,28 @@
 import axios from "axios";
 
 interface Example {
-    id: number;
-    title: string;
     isActive: boolean;
     someOtherProp: string;
 }
 
-// async function updateTitle(id: number, newTitle: string) {
-//     let updatedExample: Example = {
-//         id: id,
-//         title: newTitle
-//     }
+interface Entity {
+    id: number
+}
 
-//     await axios.put('somewhere.com', updatedExample);
-// }
+interface Titled {
+    title: string
+}
+
+type TitledEntity = Titled & Entity & object;
+
+async function updateTitle(id: number, newTitle: string) {
+    let updatedExample: TitledEntity = {
+        id: id,
+        title: newTitle,
+    }
+
+    await axios.put('somewhere.com', updatedExample);
+}
 
 async function updateTitleWithPartial(id: number, newTitle: string) {
     let updatedExample: Partial<Example> = {

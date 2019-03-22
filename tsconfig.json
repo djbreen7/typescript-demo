@@ -6,9 +6,10 @@
     "target": "es5",
     "lib": ["es2015", "dom"],
     "module": "commonjs",
-    // "strict": true,
+    "strict": true,
+    "strictNullChecks": true,
     "noImplicitAny": false,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@game/dragons": ["game/dragons/index.ts"],
       "@game/enums": ["game/enums/index.ts"],

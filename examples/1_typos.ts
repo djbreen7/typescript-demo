@@ -3,11 +3,11 @@
 function myFavoriteNumber() {
     return Math.floor(Math.random() * 10) + 1;
 }
-console.log(myFaveriteNumber());
+console.log(myFavoriteNumber());
 
-if (myFavoriteNumber > 5) {
+if (myFavoriteNumber() > 5) {
     console.log(`Higher`);
-} else if (myFavoriteNumber < 5) {
+} else if (myFavoriteNumber() < 5) {
     console.log(`Lower`);
 } else {
     console.log(myFavoriteNumber());

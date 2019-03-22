@@ -4,6 +4,15 @@ interface PersonConstructor {
     age: number | null;
 }
 
+class Human {
+    firstName: string;
+    constructor(firstName: string) {
+        this.firstName = firstName        
+    }
+}
+
+let humanoid = new Humanoid(firstName: 'Daniel');
+
 class Person {
     firstName: string;
     lastName: string;

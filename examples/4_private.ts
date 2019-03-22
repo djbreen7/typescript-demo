@@ -1,6 +1,7 @@
 
 class Thing {
     private _doNotChange;
+    // _doNotChange;
     
     constructor () {
         this._doNotChange = 'DO NOT CHANGE ME';
