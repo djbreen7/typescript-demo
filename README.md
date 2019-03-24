@@ -5,7 +5,7 @@
 - `npm install ts-node -g`
 
 ## Slides
-http://slides.com/dapperdandev/how-to-train-your-js#/
+http://slides.com/dapperdandev/how-to-train-your-js
 
 ## TODO
 - Add explanation of 'static typing' and it's concepts
