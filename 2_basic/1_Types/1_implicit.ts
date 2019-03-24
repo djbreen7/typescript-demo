@@ -1,16 +1,23 @@
 // Implicit Types
-/**
- * Implicitly typed variables take on the type relative to the value that they're assigned with NO type annotation.
- * If a variable is decalared without being initialized, it's implicitly assigned 'any'
- * 'any' is generally not preferred
- * TypeScript disallows implicit 'any' by default with the 'noImplicitAny' setting.
- */
-let one = 1;
-let a = 'a';
-let truthy = true;
-let anything;
-anything = 1;
-anything = '';
+// Implicitly typed variables take on the type relative to the value that they're assigned with NO type annotation.
 
- let implicitNumArr = [1,2,3];
- implicitNumArr.push('4');
+{
+    let num = 2;
+    // num = 'two';
+
+    let letter = 'b';
+    // letter = 1; 
+
+    let isActive = false;
+    // isActive = 'no';
+
+    let nums = [1, 2, 3];
+    // nums = ['one', 'two', 'three'];
+    // nums.push('1');
+
+
+    let whatever;
+    // whatever = 1;
+    // whatever = '1'
+    // whatever = {};
+}

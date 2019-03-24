@@ -1,10 +1,10 @@
 // Enable strictNullChecks for syntax highlighting
 
-let nums = [1,2,3];
+let nums = [1,2,3, undefined];
 
 console.log(nums.reduce((sum, val) => sum += val));
 
-interface Resident {
+interface Villager {
     name: string;
     address?: {
         street: string;
@@ -14,12 +14,12 @@ interface Resident {
     }
 }
 
-function printAddress(resident: Resident) {
-    console.log(resident.address.city);
+function printAddress(villager: Villager) {
+    console.log(villager.address.city);
 }
 
-let bob: Resident = {
-    name: 'Bob'
+let hiccup: Villager = {
+    name: 'Hiccup'
 };
 
-printAddress(bob);
+printAddress(hiccup);

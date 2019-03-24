@@ -1,31 +1,37 @@
-export class Movie implements Media{
-    public title: string;
-    public releaseDate: Date; 
-    public director: string;
-    public cast: Array<string>;
+{
+    class Movie implements Media {
+        private _id: number;
+        public title: string;
 
-    play() {
-        // Play the movie!
+        play() {
+            // Play the movie!
+        }
     }
-}
 
-export class Game implements Media {
-    public title: string;
-    public releaseDate: Date;
-    public platform: Array<'Playstation' | 'XBox'>;
+    class Game {
+        private _id: number;
+        public title: string;
+        public platform: Array<'PlayStation' | 'XBox'>;
 
-    play() {
-        // Play the movie!
+        play() {
+            // Play the game!
+        }
     }
-}
 
-interface Media {
-    play(): void;
-}
-
-class System {
-    public platform: Array<'Playstation' | 'XBox'>;
-    loadMedia(media: Media) {
-        media.play();
+    interface Media {
+        play(): void;
     }
+
+    class Platform {
+        public type: Array<'PlayStation' | 'XBox'>;
+
+        loadMedia(media: Media) {
+            media.play();
+        }
+    }
+
+    let platform = new Platform();
+    let game = new Game();
+    game.platform = ['PlayStation', 'XBox'];
+    platform.loadMedia(game); // Allows for duck-typing!!!
 }

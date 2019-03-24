@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "target": "es5",
-    "lib": ["es2015", "dom"],
-    "module": "commonjs",
-    "allowJs": true,
+    "outDir": "dist", // Where to output files
+    "target": "es5", // What to transpile code down too
+    "lib": ["es2015", "dom"], // helps determines the feedback the IDE should give us...
+    "module": "commonjs", // Mostly determines how the code handles import/export
+    "allowJs": true, // allows us to include js files with our typescript
     "strictNullChecks": true,
-    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
     "noImplicitAny": false,
+    "strictPropertyInitialization": false,
   },
 }

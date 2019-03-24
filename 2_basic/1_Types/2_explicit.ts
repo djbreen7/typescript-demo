@@ -1,14 +1,23 @@
 // Explicit Types
-/**
- * Explicitly typed variables are variables with specified types, with or without being initialized.
- * 
- */
+// Explicitly typed variables are variables with specified types, with or without being initialized.
 
-let two: number = 2;
-let b: string = 'b';
-let falsy: boolean = false;
+{
+    let num: number = 2;
+    // num = 'two';
 
-let character: string;
-let boolean: boolean;
+    let letter: string = 'b';
+    // letter = 1; 
 
-// character = true;
+    let isActive: boolean = false;
+    // isActive = 'no';
+
+    // There are two ways to add the array type annotation
+    let nums: Array<number> = [1, 2, 3];
+    // let nums: number[] = [1, 2, 3];
+
+
+    let whatever: any;
+    // whatever = 1;
+    // whatever = '1'
+    // whatever = {};
+}
