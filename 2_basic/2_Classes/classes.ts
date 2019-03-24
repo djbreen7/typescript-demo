@@ -12,7 +12,7 @@
     }
 
     let howToTrainYourDragon = new Movie('How To Train Your Dragon');
-    howToTrainYourDragon._id = 1234;
+    // howToTrainYourDragon._id = 1234;
 
     console.table(howToTrainYourDragon);
 }

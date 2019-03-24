@@ -2,7 +2,7 @@
 
 {
     class Movie {
-        _id;
+        _id; // requires 'esnext'
         title;
 
         constructor(title) {
