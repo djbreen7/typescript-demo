@@ -13,5 +13,8 @@ http://slides.com/dapperdandev/how-to-train-your-js
 - Further explain tsconfig 'module'
 - Further explain 'any'
 - Further explain 'type definitions / *.d.ts files
+- Further explain definitelytyped. Will @types be pulled in with their library?
 - Reorganize: Move classes, interfaces, generics, etc further down in presentation order
 - Discuss 'as' keyword??
+- Discuss transpilation acceptance
+   - Will code transpile with errors? Which errors? With ts-check vs .ts?
